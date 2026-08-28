@@ -1,0 +1,16 @@
+Series: q2_diff_training$d_oil 
+ARIMA(1,0,0) with non-zero mean 
+
+Coefficients:
+         ar1    mean
+      0.3181  0.1202
+s.e.  0.0452  0.2840
+
+sigma^2 = 16.72:  log likelihood = -1251.52
+AIC=2509.04   AICc=2509.1   BIC=2521.32
+
+Training set error measures:
+                      ME     RMSE      MAE       MPE     MAPE      MASE
+Training set 0.006158115 4.079798 2.697771 -1538.413 1791.662 0.7949346
+                    ACF1
+Training set -0.01796977

@@ -1,0 +1,16 @@
+Series: q1_training$deterministic_residual 
+ARIMA(3,0,3) with zero mean 
+
+Coefficients:
+         ar1      ar2     ar3      ma1     ma2     ma3
+      1.3243  -1.3260  0.3346  -0.6779  0.7065  0.2503
+s.e.  0.1194   0.1145  0.1123   0.1252  0.0940  0.1091
+
+sigma^2 = 0.001566:  log likelihood = 827.34
+AIC=-1640.68   AICc=-1640.43   BIC=-1611.82
+
+Training set error measures:
+                        ME       RMSE        MAE      MPE     MAPE      MASE
+Training set 0.00005664856 0.03931217 0.03101704 46.96292 159.3435 0.8179072
+                     ACF1
+Training set -0.002958623

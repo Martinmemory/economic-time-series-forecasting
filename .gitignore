@@ -1,0 +1,14 @@
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+.DS_Store
+Thumbs.db
+raw_data/
+data/raw/
+cache/
+temp/
+*.log
+local_archive/
+.Rapp.history
+R_libs/

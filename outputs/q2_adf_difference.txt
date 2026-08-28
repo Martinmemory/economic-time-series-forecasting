@@ -1,0 +1,29 @@
+Augmented Dickey-Fuller Test 
+alternative: stationary 
+ 
+Type 1: no drift no trend 
+     lag    ADF p.value
+[1,]   0 -15.13    0.01
+[2,]   1 -11.61    0.01
+[3,]   2 -10.97    0.01
+[4,]   3  -9.81    0.01
+[5,]   4  -9.01    0.01
+[6,]   5  -8.71    0.01
+Type 2: with drift no trend 
+     lag    ADF p.value
+[1,]   0 -15.13    0.01
+[2,]   1 -11.61    0.01
+[3,]   2 -10.98    0.01
+[4,]   3  -9.81    0.01
+[5,]   4  -9.02    0.01
+[6,]   5  -8.73    0.01
+Type 3: with drift and trend 
+     lag    ADF p.value
+[1,]   0 -15.11    0.01
+[2,]   1 -11.60    0.01
+[3,]   2 -10.96    0.01
+[4,]   3  -9.80    0.01
+[5,]   4  -9.01    0.01
+[6,]   5  -8.71    0.01
+---- 
+Note: in fact, p.value = 0.01 means p.value <= 0.01 

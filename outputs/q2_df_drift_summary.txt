@@ -1,0 +1,17 @@
+
+Call:
+lm(formula = d_oil ~ lag_oil, data = q2_df_data)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-25.3970  -1.5177  -0.0174   1.8442  14.5466 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)
+(Intercept)  0.586057   0.380238   1.541    0.124
+lag_oil     -0.009836   0.006976  -1.410    0.159
+
+Residual standard error: 4.302 on 441 degrees of freedom
+Multiple R-squared:  0.004488,	Adjusted R-squared:  0.00223 
+F-statistic: 1.988 on 1 and 441 DF,  p-value: 0.1593
+

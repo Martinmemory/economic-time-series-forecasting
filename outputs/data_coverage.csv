@@ -1,0 +1,4 @@
+"series","file","observations","first_date","last_date"
+"U.S. electricity retail sales","elec.csv",468,"1973M01","2011M12"
+"WTI crude oil price","wti_oil_price.csv",466,"1986-01-01","2024-10-01"
+"Disney closing price","disney_stock_price.csv",4498,"2007-01-03","2024-11-13"

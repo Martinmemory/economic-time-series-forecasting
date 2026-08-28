@@ -1,0 +1,16 @@
+Series: q2_training$oil_price 
+ARIMA(1,1,0) with drift 
+
+Coefficients:
+         ar1   drift
+      0.3181  0.1202
+s.e.  0.0452  0.2840
+
+sigma^2 = 16.72:  log likelihood = -1251.52
+AIC=2509.04   AICc=2509.1   BIC=2521.32
+
+Training set error measures:
+                      ME     RMSE      MAE        MPE     MAPE      MASE
+Training set 0.006194409 4.075201 2.691746 -0.2811379 6.130822 0.9644124
+                    ACF1
+Training set -0.01798467

@@ -1,0 +1,5 @@
+"Model","BIC","Convergence_code","Convergence_message","Finite_coefficients","Finite_volatility"
+"ARCH(1)",-5.29739656073495,1,"singular convergence (7)",TRUE,TRUE
+"GARCH(1,1)",-5.48753146024609,1,"singular convergence (7)",TRUE,TRUE
+"AR(1)-ARCH(1)",-5.29750843746514,1,"singular convergence (7)",TRUE,TRUE
+"AR(1)-GARCH(1,1)",-5.48678910240264,1,"singular convergence (7)",TRUE,TRUE

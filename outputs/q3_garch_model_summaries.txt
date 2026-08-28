@@ -1,0 +1,160 @@
+===== ARCH(1) =====
+
+Title:
+ GARCH Modelling 
+
+Call:
+ fGarch::garchFit(formula = ~garch(1, 0), data = q3_returns, cond.dist = "norm", 
+    include.mean = TRUE, trace = FALSE) 
+
+Mean and Variance Equation:
+ data ~ garch(1, 0)
+<environment: 0x11d4ffd60>
+ [data = q3_returns]
+
+Conditional Distribution:
+ norm 
+
+Coefficient(s):
+        mu       omega      alpha1  
+0.00040074  0.00023034  0.30925407  
+
+Std. Errors:
+ based on Hessian 
+
+Error Analysis:
+          Estimate  Std. Error  t value            Pr(>|t|)    
+mu     0.000400735 0.000240279    1.668              0.0954 .  
+omega  0.000230340 0.000006207   37.112 <0.0000000000000002 ***
+alpha1 0.309254066 0.026534716   11.655 <0.0000000000000002 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Log Likelihood:
+ 11839.04    normalized:  2.651522 
+
+Description:
+ Fri Aug 28 02:45:07 2026 by user:  
+
+
+===== GARCH(1,1) =====
+
+Title:
+ GARCH Modelling 
+
+Call:
+ fGarch::garchFit(formula = ~garch(1, 1), data = q3_returns, cond.dist = "norm", 
+    include.mean = TRUE, trace = FALSE) 
+
+Mean and Variance Equation:
+ data ~ garch(1, 1)
+<environment: 0x11cbdb7e8>
+ [data = q3_returns]
+
+Conditional Distribution:
+ norm 
+
+Coefficient(s):
+          mu         omega        alpha1         beta1  
+0.0003182185  0.0000061198  0.0779669876  0.9039944538  
+
+Std. Errors:
+ based on Hessian 
+
+Error Analysis:
+          Estimate  Std. Error  t value             Pr(>|t|)    
+mu     0.000318218 0.000207682    1.532                0.125    
+omega  0.000006120 0.000001024    5.978        0.00000000225 ***
+alpha1 0.077966988 0.008979289    8.683 < 0.0000000000000002 ***
+beta1  0.903994454 0.010315968   87.631 < 0.0000000000000002 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Log Likelihood:
+ 12267.72    normalized:  2.74753 
+
+Description:
+ Fri Aug 28 02:45:07 2026 by user:  
+
+
+===== AR(1)-ARCH(1) =====
+
+Title:
+ GARCH Modelling 
+
+Call:
+ fGarch::garchFit(formula = ~arma(1, 0) + garch(1, 0), data = q3_returns, 
+    cond.dist = "norm", include.mean = TRUE, trace = FALSE) 
+
+Mean and Variance Equation:
+ data ~ arma(1, 0) + garch(1, 0)
+<environment: 0x11e1a68d0>
+ [data = q3_returns]
+
+Conditional Distribution:
+ norm 
+
+Coefficient(s):
+         mu          ar1        omega       alpha1  
+ 0.00041496  -0.06202983   0.00022693   0.32905142  
+
+Std. Errors:
+ based on Hessian 
+
+Error Analysis:
+           Estimate   Std. Error  t value            Pr(>|t|)    
+mu      0.000414955  0.000242015    1.715              0.0864 .  
+ar1    -0.062029825  0.019969915   -3.106              0.0019 ** 
+omega   0.000226929  0.000006357   35.695 <0.0000000000000002 ***
+alpha1  0.329051417  0.029283049   11.237 <0.0000000000000002 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Log Likelihood:
+ 11843.5    normalized:  2.652519 
+
+Description:
+ Fri Aug 28 02:45:07 2026 by user:  
+
+
+===== AR(1)-GARCH(1,1) =====
+
+Title:
+ GARCH Modelling 
+
+Call:
+ fGarch::garchFit(formula = ~arma(1, 0) + garch(1, 1), data = q3_returns, 
+    cond.dist = "norm", include.mean = TRUE, trace = FALSE) 
+
+Mean and Variance Equation:
+ data ~ arma(1, 0) + garch(1, 1)
+<environment: 0x11d7cb9e0>
+ [data = q3_returns]
+
+Conditional Distribution:
+ norm 
+
+Coefficient(s):
+           mu            ar1          omega         alpha1          beta1  
+ 0.0003295046  -0.0364859326   0.0000060604   0.0779327082   0.9042595609  
+
+Std. Errors:
+ based on Hessian 
+
+Error Analysis:
+           Estimate   Std. Error  t value             Pr(>|t|)    
+mu      0.000329505  0.000208092    1.583                0.113    
+ar1    -0.036485933  0.016608385   -2.197                0.028 *  
+omega   0.000006060  0.000001021    5.933        0.00000000297 ***
+alpha1  0.077932708  0.009034997    8.626 < 0.0000000000000002 ***
+beta1   0.904259561  0.010362722   87.261 < 0.0000000000000002 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Log Likelihood:
+ 12270.27    normalized:  2.7481 
+
+Description:
+ Fri Aug 28 02:45:07 2026 by user:  
+
+
